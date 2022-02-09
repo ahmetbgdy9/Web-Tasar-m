@@ -1,2 +1,2 @@
 # web
-html ilk ödev
+html ödevleri
