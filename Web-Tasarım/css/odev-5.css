@@ -1,0 +1,48 @@
+.anaBaslik {
+    color: #0F4C75;
+    text-align: center;
+}
+
+.altBaslik {
+    text-align: center;
+}
+
+.tel {
+    
+    width:400px;
+    height: 400px;
+    display: table;
+    text-align:center;
+    position: relative;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.tablet {
+    
+    width:400px;
+    height: 400px;
+    display: table;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    margin:0 auto;
+    
+}
+
+.pc {
+    
+    width:400px;
+    height: 400px;
+    display: table;
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+    margin:0 auto;
+  
+}
+
+#resimler {
+    text-align: center;
+    
+}

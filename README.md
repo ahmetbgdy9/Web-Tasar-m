@@ -1,2 +1,2 @@
 # web
-html ödevleri
+web(front-end) ödevleri
