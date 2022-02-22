@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+*{   
+    margin: 0;
+    padding: 0;  
+}
+
+.logo  {
+    color: #fff;
+    padding-left: 45px;
+}
+
+.header {
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: rgb(212, 0, 42);
+    
+}
+
+.header .basliklar {
+    padding-top: 8px;
+    margin-left: auto;  
+}
+
+.basliklar  li  {
+    list-style: none;
+    float: right;
+    margin-right: 20px;    
+}
+
+.basliklar  li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Open Sans",sans-serif;
+    font-size: .988rem;
+    font-weight: 400;
+    line-height: 1.6;
+    
+}
+
+.rent-section {
+    min-height: 760px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.rent-section .title {
+    padding-top: 35px;    
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #fff;
+    text-align: center;
+   
+}
+
+.primary-section {
+    padding: 24px 0;
+}
+
+.container {
+    max-width: 720px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.media-card-list {
+    margin-bottom: -32px;
+    position: relative;
+    margin-bottom: -8px;
+    z-index: 1;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -16px;
+    margin-left: -16px;
+}
+
+.media-card-list .row > div {
+    margin-bottom: 32px;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    position: relative;
+    width: 100%;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.media-card {
+    border-radius: 0;
+border: 0;
+overflow: hidden;
+padding-top: 117.19%;
+background-color: #F1F1F1;
+}
+
+.card {
+    position: relative;
+display: flex;
+flex-direction: column;
+min-width: 0;
+background-color: #fff;
+background-clip: border-box;
+}
+
+.media-card .card-img-overlay {
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    padding: 0;
+    top: inherit;
+    right: 14px;
+    bottom: 14px;
+    left: 14px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+.media-card .card-img-overlay .card-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    height: 100%;
+  }
+
+  .media-card .card-link {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: 600;
+    background-color: #FF0134;
+    transition: ease all .3s;
+    color: #fff;
+    line-height: normal;
+  }
+
+  .media-card .card-img-wrapper {
+    bottom: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+  }
+  .media-card .card-img-wrapper, .rent-section .section-content .title-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
